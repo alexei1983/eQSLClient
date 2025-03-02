@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>org.goodspace.Data.Radio.Eqsl</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdifNet" Version="1.8.6" />
+    <PackageReference Include="EnhancedWebRequest" Version="1.1.5" />
+  </ItemGroup>
+
+</Project>
