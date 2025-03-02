@@ -5,7 +5,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>org.goodspace.Data.Radio.Eqsl</RootNamespace>
+	  <Version>1.1.2</Version>
+	  <SignAssembly>True</SignAssembly>
+	  <AssemblyOriginatorKeyFile>C:\Users\S017138\source\repos\PenOidProj\PenOid\alexj.snk</AssemblyOriginatorKeyFile>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>eQSL Client for AdifNet</Title>
+	  <Description>Web client for uploading QSOs to eQSL.cc using the AdifNet library.</Description>
+	  <PackageProjectUrl>https://github.com/alexei1983/eQSLClient</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/alexei1983/eQSLClient</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>eQSL;eQSL.cc,adif,adifnet</PackageTags>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AdifNet" Version="1.8.6" />
